@@ -44,6 +44,10 @@ export class ViewModel {
 		this.movementIsStopped = false
 	}
 
+	public isFrozen() {
+		return this.movementIsStopped
+	}
+
 	public getPathToTarget() {
 		if (this.mazeState === null) {
 			return []
