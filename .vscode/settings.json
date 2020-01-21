@@ -1,5 +1,6 @@
 {
   "cSpell.words": [
     "domokun"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
